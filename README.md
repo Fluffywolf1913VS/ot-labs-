@@ -1,5 +1,7 @@
 # OT / ICS Security Labs
 
+![OT / ICS Security Labs](assets/ot-industrial-overview.png)
+
 <p align="center">
   <img src="https://img.shields.io/badge/OT%2FICS-Security-critical">
   <img src="https://img.shields.io/badge/Protocol-Modbus%20TCP-blue">
@@ -10,8 +12,6 @@
   <img src="https://img.shields.io/badge/Hands--on-OT%20Labs-22C55E">
   <img src="https://img.shields.io/badge/Portfolio-Active-blue">
 </p>
-
-![OT / ICS Security Labs](assets/ot-industrial-overview.png)
 
 ## About this repository
 
