@@ -1,5 +1,16 @@
 # OT / ICS Security Labs
 
+<p align="center">
+  <img src="https://img.shields.io/badge/OT%2FICS-Security-critical">
+  <img src="https://img.shields.io/badge/Protocol-Modbus%20TCP-blue">
+  <img src="https://img.shields.io/badge/PLC-OpenPLC-orange">
+  <img src="https://img.shields.io/badge/SCADA-FUXA-green">
+  <img src="https://img.shields.io/badge/Analysis-Wireshark-1679A7">
+  <img src="https://img.shields.io/badge/Lab-Containerlab-2496ED">
+  <img src="https://img.shields.io/badge/Hands--on-OT%20Labs-22C55E">
+  <img src="https://img.shields.io/badge/Portfolio-Active-blue">
+</p>
+
 ![OT / ICS Security Labs](assets/ot-industrial-overview.png)
 
 ## About this repository
