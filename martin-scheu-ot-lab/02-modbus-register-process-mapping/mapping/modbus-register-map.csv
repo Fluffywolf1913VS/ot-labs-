@@ -1,0 +1,10 @@
+raw_register,conventional_4xxxx,variable,example_value,unit,data_type,read_fc,write_fc,access,confidence,evidence
+0,40001,Tank level,60,%,UINT16,03,,Read,Strong correlation,"FC03 value matched HMI tank level"
+2,40003,Level SP,61,%,UINT16,03,06,Read/Write,Confirmed,"Controlled HMI change 60→61 produced FC06 R2=61"
+3,40004,Inlet valve position / command,0-100,%,UINT16,03,06,Read/Write,Confirmed,"Open produced 100; Close produced 0; FC03 tracked intermediate position"
+4,40005,Outlet valve position / command,0-100,%,UINT16,03,06,Read/Write,Confirmed,"Open produced 100; Close produced 0; FC03 matched intermediate position"
+5,40006,Inlet flow (FT),198-207,L/s,UINT16,03,,Read,Strong correlation,"FC03 fluctuated around HMI inlet flow"
+6,40007,Outlet flow (FT),201,L/s,UINT16,03,,Read,Strong correlation,"FC03 matched HMI outlet flow"
+16,40017,Outlet flow SP,201,L/s,UINT16,03,06,Read/Write,Confirmed,"Controlled HMI change 200→201 produced FC06 R16=201"
+26,40027,Inlet valve Stop/Hold,1,command,UINT16,,06,Write,Confirmed,"Isolated single Stop click produced FC06 R26=1"
+27,40028,Outlet valve Stop/Hold,1,command,UINT16,,06,Write,Confirmed,"Isolated single Stop click produced FC06 R27=1"
